@@ -6,6 +6,9 @@ cy='\033[36;1m' #cyan
 me='\033[31;1m' #merah
 pu='\033[37;1m' #purple
 ku='\033[33;1m' #kuning
+echo
+echo  $i"apakah sudah pernah"$me"MENGGUNAKAN"$ku"TOLLS"$i"ini sebelum nya ??"
+echo
 echo $ku"["$me"1"$ku"]"$i"SUDAH PERNAH"
 echo $ku"["$me"2"$ku"]"$i"BELUM PERNAH"
 read mrrm

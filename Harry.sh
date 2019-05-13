@@ -6,6 +6,12 @@ cy='\033[36;1m' #cyan
 me='\033[31;1m' #merah
 pu='\033[37;1m' #purple
 ku='\033[33;1m' #kuning
+pkg install nano
+pkg install cowsay
+pkg install figlet
+pgk install ruby
+gem install lolcat
+
 clear
 echo
 echo $ku"==================="$me" ============================="
@@ -19,6 +25,7 @@ echo
 echo $ku"["$me"1"$ku"]"$i"SUDAH PERNAH"
 echo $ku"["$me"2"$ku"]"$i"BELUM PERNAH"
 read mrrm
+
 if [ $mrrm = 2 ]
 then
 sh Install.sh

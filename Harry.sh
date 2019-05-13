@@ -10,11 +10,11 @@ echo
 echo $red"          Akan Menginstall tools Terlebih Dahulu"
 echo $red"            Harap Tunggu Sebentar"   
 sleep 1
-echo ──▄────▄▄▄▄▄▄▄────▄───
-     ─▀▀▄─▄█████████▄─▄▀▀──
-     ─────██─▀███▀─██──────
-     ───▄─▀████▀████▀─▄────
-     ─▀█────██▀█▀██────█▀──
+echo ''' \a   ──▄────▄▄▄▄▄▄▄────▄───
+\033[32;1m    ─▀▀▄─▄█████████▄─▄▀▀──
+\033[32;1m    ─────██─▀███▀─██──────
+\033[32;1m    ───▄─▀████▀████▀─▄────
+\033[32;1m    ─▀█────██▀█▀██────█▀── '''
 sleep 1
 apt update && apt upgrade
 apt install nano
@@ -27,14 +27,14 @@ echo
 echo
 echo $red"          Akan Menginstall tools Terlebih Dahulu"
 echo $red"            Harap Tunggu Sebentar" sleep 1
-echo ╮╰╮╮▕╲╰╮╭╯╱▏╭╭╭╭
-     ╰╰╮╰╭╱▔▔▔▔╲╮╯╭╯
-     ┏━┓┏┫╭▅╲╱▅╮┣┓╭║║║
-     ╰┳╯╰┫┗━╭╮━┛┣╯╯╚╬╝
-     ╭┻╮╱╰╮╰━━╯╭╯╲┊   ║
-     ╰┳┫▔╲╰┳━━┳╯╱▔┊   ║
-     ┈┃╰━━╲▕╲╱▏╱━━━┬╨╮
-     ┈╰━━╮┊▕╱╲▏┊╭━━┴╥╯
+echo ''' \a    ╮╰╮╮▕╲╰╮╭╯╱▏╭╭╭╭
+\033[32;1m     ╰╰╮╰╭╱▔▔▔▔╲╮╯╭╯
+\033[32;1m     ┏━┓┏┫╭▅╲╱▅╮┣┓╭║║║
+\033[32;1m     ╰┳╯╰┫┗━╭╮━┛┣╯╯╚╬╝
+\033[32;1m     ╭┻╮╱╰╮╰━━╯╭╯╲┊   ║
+\033[32;1m     ╰┳┫▔╲╰┳━━┳╯╱▔┊   ║
+\033[32;1m     ┈┃╰━━╲▕╲╱▏╱━━━┬╨╮
+\033[32;1m     ┈╰━━╮┊▕╱╲▏┊╭━━┴╥╯
 sleep 1
 apt install php
 pip2 install mechanize
@@ -50,8 +50,8 @@ echo $ku"["$me"1"$ku"]"$i" SPAM CALL"
 echo $ku"["$me"2"$ku"]"$i" SPAM SMS BRUTAL TERBARU"
 echo $i"["$me"3"$i"]"$ku" EXIT"
 echo
-echo $pur"Masukkan pilihan anda"$pur"
-read -p ">>" pil
+echo $pur"PILIH 1 ATAU 2  :"
+read pil
 
 if [ $pil = 1 ]
 then

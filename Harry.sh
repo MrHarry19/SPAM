@@ -11,9 +11,9 @@ echo $ku"["$me"2"$ku"]"$i"BELUM PERNAH"
 read mrrm
 if [ $mrrm = 2 ]
 then
-sh install.sh
-sh spam.sh
+sh Install.sh
+sh Spam.sh
 fi
 if [ $mrrm = 1 ]
-sh spam.sh
+sh Spam.sh
 fi

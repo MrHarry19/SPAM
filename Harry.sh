@@ -9,7 +9,7 @@ ku='\033[33;1m' #kuning
 echo $ku"["$me"1"$ku"]"$i"SUDAH PERNAH"
 echo $ku"["$me"2"$ku"]"$i"BELUM PERNAH"
 read sd
-if [ $sd = 1 ]
+if [ $sd = 2 ]
 then
 clear
 echo
@@ -83,7 +83,7 @@ fi
 if [ $pil = 3 ]
 then
 clear
-figlet -f slant "W A I T"|Ulolcat
+figlet -f slant "TUNGGU"| lolcat
 sleep 2
 echo $cy"Terima Kasih sudah mengunakan Tools ini"
 sleep 2
@@ -91,7 +91,7 @@ echo $i"Silahkan di pakai semoga bermanfaat Buat anda"
 exit
 fi
 fi
-if [ $sd = 2 ]
+if [ $sd = 1 ]
 then
 clear
 echo
@@ -129,7 +129,7 @@ fi
 if [ $pil = 3 ]
 then
 clear
-figlet -f slant "W A I T"|Ulolcat
+figlet -f slant "TUNGGU"| lolcat
 sleep 2
 echo $cy"Terima Kasih sudah mengunakan Tools ini"
 sleep 2

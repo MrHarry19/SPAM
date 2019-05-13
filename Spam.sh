@@ -9,9 +9,10 @@ ku='\033[33;1m' #kuning
 
 clear
 echo
-echo $pur"==================="$cy" ============================="
-echo $pu"                AUTHOR  :  Mr.Harry  "                  
-echo $pur"==================="$cy" ============================="
+echo $ku"==================="$me" ============================="
+echo $pu"                   Mr.Harry  "  
+echo $pu"     Script Kiddie / Recode SC orang lain :D               
+echo $me"==================="$ku" ============================="
 echo
 echo $ku"["$me"1"$ku"]"$i" SPAM CALL"
 echo $ku"["$me"2"$ku"]"$i" SPAM SMS BRUTAL TERBARU"

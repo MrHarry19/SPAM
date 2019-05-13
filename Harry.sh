@@ -43,7 +43,7 @@ pip2 install requests
 clear
 echo
 echo $pur"==================="$cy" ============================="
-echo $pu"  AUTHOR  :  Mr.Harry  "                  
+echo $pu"                AUTHOR  :  Mr.Harry  "                  
 echo $pur"==================="$cy" ============================="
 echo
 echo $ku"["$me"1"$ku"]"$i" SPAM CALL"
@@ -56,7 +56,7 @@ read pil
 if [ $pil = 1 ]
 then
 clear
-figlet -f slant "W A I T"|lolcat
+figlet -f slant "TUNGGU"|lolcat
 sleep 1
 git clone https://github.com/Aditya021/SpamCall
 cd SpamCall
@@ -66,7 +66,7 @@ fi
 if [ $pil = 2 ]
 then
 clear
-figlet -f slant "W A I T"|lolcat
+figlet -f slant "TUNGGU"|lolcat
 sleep 1
 git clone https://github.com/N74NK/brutalsms.git
 cd brutalsms

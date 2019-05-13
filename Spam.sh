@@ -11,7 +11,7 @@ clear
 echo
 echo $ku"==================="$me" ============================="
 echo $pu"                   Mr.Harry  "  
-echo $pu"     Script Kiddie / Recode SC orang lain :D               
+echo $pu"     Script Kiddie / Recode SC orang lain :D"              
 echo $me"==================="$ku" ============================="
 echo
 echo $ku"["$me"1"$ku"]"$i" SPAM CALL"

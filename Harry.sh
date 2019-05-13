@@ -13,6 +13,6 @@ if [ $mrrm = 2 ]
 then
 sh Install.sh
 sh Spam.sh
-fi
 else
 sh Spam.sh
+fi

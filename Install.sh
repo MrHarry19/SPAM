@@ -43,3 +43,5 @@ apt install php
 pip2 install mechanize
 pip2 install lolcat
 pip2 install requests
+pip install requests
+

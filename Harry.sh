@@ -14,6 +14,5 @@ then
 sh Install.sh
 sh Spam.sh
 fi
-if [ $mrrm = 1 ]
+else
 sh Spam.sh
-fi

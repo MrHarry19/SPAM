@@ -25,8 +25,8 @@ then
 clear
 figlet -f slant "TUNGGU"|lolcat
 sleep 1
-git clone https://github.com/Aditya021/SpamCall
-cd SpamCall
+git clone https://github.com/ClayHackerTeam/311
+cd 311
 php SpamCall.php
 fi
 

@@ -25,7 +25,14 @@ echo
 echo $ku"["$me"1"$ku"]"$i"SUDAH PERNAH"
 echo $ku"["$me"2"$ku"]"$i"BELUM PERNAH"
 read mrrm
-
+echo
+echo
+echo ''' \a         ──▄────▄▄▄▄▄▄▄────▄───
+\033[32;1m          ─▀▀▄─▄█████████▄─▄▀▀──
+\033[32;1m          ─────██─▀███▀─██──────
+\033[32;1m          ───▄─▀████▀████▀─▄────
+\033[32;1m          ─▀█────██▀█▀██────█▀── '''
+sleep 1
 if [ $mrrm = 2 ]
 then
 sh Install.sh

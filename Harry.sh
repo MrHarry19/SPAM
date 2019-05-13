@@ -6,15 +6,21 @@ cy='\033[36;1m' #cyan
 me='\033[31;1m' #merah
 pu='\033[37;1m' #purple
 ku='\033[33;1m' #kuning
+echo $ku"["$me"1"$ku"]"$i"SUDAH PERNAH"
+echo $ku"["$me"2"$ku"]"$i"BELUM PERNAH"
+read sd
+if [ $sd = 1 ]
+then
+clear
 echo
-echo $red"          Akan Menginstall tools Terlebih Dahulu"
+echo $red"       Akan Menginstall tools Terlebih Dahulu"
 echo $red"            Harap Tunggu Sebentar"   
 sleep 1
-echo ''' \a   ──▄────▄▄▄▄▄▄▄────▄───
-\033[32;1m    ─▀▀▄─▄█████████▄─▄▀▀──
-\033[32;1m    ─────██─▀███▀─██──────
-\033[32;1m    ───▄─▀████▀████▀─▄────
-\033[32;1m    ─▀█────██▀█▀██────█▀── '''
+echo ''' \a         ──▄────▄▄▄▄▄▄▄────▄───
+\033[32;1m          ─▀▀▄─▄█████████▄─▄▀▀──
+\033[32;1m          ─────██─▀███▀─██──────
+\033[32;1m          ───▄─▀████▀████▀─▄────
+\033[32;1m          ─▀█────██▀█▀██────█▀── '''
 sleep 1
 apt update && apt upgrade
 apt install nano
@@ -25,16 +31,16 @@ echo
 echo
 echo
 echo
-echo $red"          Akan Menginstall tools Terlebih Dahulu"
+echo $red"      Akan Menginstall tools Terlebih Dahulu"
 echo $red"            Harap Tunggu Sebentar" sleep 1
-echo ''' \a    ╮╰╮╮▕╲╰╮╭╯╱▏╭╭╭╭
-\033[32;1m     ╰╰╮╰╭╱▔▔▔▔╲╮╯╭╯
-\033[32;1m     ┏━┓┏┫╭▅╲╱▅╮┣┓╭║║║
-\033[32;1m     ╰┳╯╰┫┗━╭╮━┛┣╯╯╚╬╝
-\033[32;1m     ╭┻╮╱╰╮╰━━╯╭╯╲┊   ║
-\033[32;1m     ╰┳┫▔╲╰┳━━┳╯╱▔┊   ║
-\033[32;1m     ┈┃╰━━╲▕╲╱▏╱━━━┬╨╮
-\033[32;1m     ┈╰━━╮┊▕╱╲▏┊╭━━┴╥╯
+echo ''' \a          ╮╰╮╮▕╲╰╮╭╯╱▏╭╭╭╭
+\033[32;1m           ╰╰╮╰╭╱▔▔▔▔╲╮╯╭╯
+\033[32;1m           ┏━┓┏┫╭▅╲╱▅╮┣┓╭║║║
+\033[32;1m           ╰┳╯╰┫┗━╭╮━┛┣╯╯╚╬╝
+\033[32;1m           ╭┻╮╱╰╮╰━━╯╭╯╲┊   ║
+\033[32;1m           ╰┳┫▔╲╰┳━━┳╯╱▔┊   ║
+\033[32;1m           ┈┃╰━━╲▕╲╱▏╱━━━┬╨╮
+\033[32;1m           ┈╰━━╮┊▕╱╲▏┊╭━━┴╥╯
 sleep 1
 apt install php
 pip2 install mechanize
@@ -82,4 +88,51 @@ echo $cy"Terima Kasih sudah mengunakan Tools ini"
 sleep 2
 echo $i"Silahkan di pakai semoga bermanfaat Buat anda"
 exit
+fi
+fi
+if [ $sd = 2 ]
+then
+clear
+echo
+echo $pur"==================="$cy" ============================="
+echo $pu"                AUTHOR  :  Mr.Harry  "                  
+echo $pur"==================="$cy" ============================="
+echo
+echo $ku"["$me"1"$ku"]"$i" SPAM CALL"
+echo $ku"["$me"2"$ku"]"$i" SPAM SMS BRUTAL TERBARU"
+echo $i"["$me"3"$i"]"$ku" EXIT"
+echo
+echo $pur"PILIH 1 ATAU 2  :"
+read pil
+
+if [ $pil = 1 ]
+then
+clear
+figlet -f slant "TUNGGU"|lolcat
+sleep 1
+git clone https://github.com/Aditya021/SpamCall
+cd SpamCall
+php SpamCall.php
+fi
+
+if [ $pil = 2 ]
+then
+clear
+figlet -f slant "TUNGGU"|lolcat
+sleep 1
+git clone https://github.com/N74NK/brutalsms.git
+cd brutalsms
+python2 brutalsms.py
+fi
+
+if [ $pil = 3 ]
+then
+clear
+figlet -f slant "W A I T"|Ulolcat
+sleep 2
+echo $cy"Terima Kasih sudah mengunakan Tools ini"
+sleep 2
+echo $i"Silahkan di pakai semoga bermanfaat Buat anda"
+exit
+fi
 fi

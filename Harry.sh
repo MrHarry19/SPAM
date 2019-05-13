@@ -32,7 +32,8 @@ echo
 echo
 echo
 echo $red"      Akan Menginstall tools Terlebih Dahulu"
-echo $red"            Harap Tunggu Sebentar" sleep 1
+echo $red"            Harap Tunggu Sebentar" 
+sleep 1
 echo ''' \a          ╮╰╮╮▕╲╰╮╭╯╱▏╭╭╭╭
 \033[32;1m           ╰╰╮╰╭╱▔▔▔▔╲╮╯╭╯
 \033[32;1m           ┏━┓┏┫╭▅╲╱▅╮┣┓╭║║║

@@ -35,9 +35,7 @@ then
 clear
 figlet -f slant "TUNGGU"|lolcat
 sleep 1
-git clone https://github.com/N74NK/brutalsms.git
-cd brutalsms
-python2 brutalsms.py
+python sms.py
 fi
 
 if [ $pil = 3 ]
